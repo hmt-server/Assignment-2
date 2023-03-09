@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: rgb(197, 197, 240);
+    font-family: 'Roboto Mono', monospace;
+} 
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 60px;
+    margin-top: 50px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 63px;
+    margin: 2%;
+    list-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+}
+.logo,
+.list-item {
+    cursor: pointer;
+}
+
+.head-btn {
+    padding: 15px 20px;
+    background-color: #210ae9;
+    border: none;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+main {
+max-width: 1180px;
+text-align: left;
+margin-top: 125px;
+}
+
+main h1 {
+font-weight: 600;
+font-size: 80px; 
+font-style: normal;
+margin-left: 5%;
+line-height: 80px;
+color: #2c0db3;
+}
+
+main h1 span {
+color: #179ef1;
+font-size: 80px;
+font-weight: 800;
+font-style: italic; 
+
+}
+ main p {
+ font-weight: 500;
+ font-size: 20px;
+ font-style: italic;
+ margin: 2%;
+ color: #111111;
+}
+
+.main-button {
+background: #2b1ee2;
+font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+border: none;
+border-radius: 25px;
+padding: 24px 56px;
+margin-top: 64px;
+cursor: pointer;
+
+}
+.brand-image {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+}
